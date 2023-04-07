@@ -1,0 +1,210 @@
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  width: auto;
+  display: block;
+  margin: 0;
+  padding: 0;
+  height: auto;
+}
+.col-1-3 {
+    width: 31.333%;
+    margin: 1%;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.wrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 0;
+  position: relative;
+  text-align: center;
+  display: block;
+  z-index: 1;
+}
+
+.section {
+  padding: 100px 0;
+  position: relative;
+}
+
+.section+.section {
+  padding-top: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 400;
+}
+
+/* ...............nav styles.............. */
+.button {
+  display: inline-block;
+  padding: 15px 20px 15px 20px;
+  background: #444444;
+  color: #EDEDED;
+  font-size: 12px;
+  line-height: 30px;
+  text-transform: uppercase;
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 20px;
+  -webkit-transition: all ease 0.6s;
+  -o-transition: all ease 0.6s;
+  transition: all ease 0.6s;
+}
+
+@media only screen and (min-width: 1000px) {
+  .button:hover {
+    background-color: #333;
+    color: #DA0037;
+    -webkit-transition: all ease 0.6s;
+    -o-transition: all ease 0.6s;
+    transition: all ease 0.6s;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .social a:hover i {
+  color: #DA0037;
+    -webkit-transition: all ease 0.6s;
+    -o-transition: all ease 0.6s;
+    transition: all ease 0.6s;
+  }
+}
+.social {
+    color: #fff;
+    position: absolute;
+    left: 0;
+    margin: 0;
+    padding: 20px;
+}
+.social a{
+  display: block;
+}
+
+.nav-buttons {
+    position: absolute;
+    right: 0;
+    display: block;
+    vertical-align: middle;
+    top: 0;
+    padding: 20px;
+}
+
+
+.nav-button {
+  text-transform: capitalize;
+    padding-left: 20px;
+    display: inline-block;
+    color: #EDEDED;
+    font-size: 17px;
+    line-height: 23px;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    -webkit-transition: all ease 0.6s;
+    -o-transition: all ease 0.6s;
+    transition: all ease 0.6s;
+}
+
+@media only screen and (min-width: 1000px) {
+  .nav-button:hover {
+    color: #DA0037;
+    -webkit-transition: all ease 0.6s;
+    -o-transition: all ease 0.6s;
+    transition: all ease 0.6s;
+  }
+}
+
+.nav-bar {
+  background-color: #171717;
+  position: relative;
+  padding: 20px;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    height: 120px;
+    width: 120px;
+}
+
+
+.nav-bar li {
+  list-style: none;
+  display: inline-block;
+  font-size: 17px;
+}
+/* ...............banner styles.............. */
+main {
+  margin-top :130px;
+}
+.banner {
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 700px;
+    position: relative;
+}
+.banner-title {
+  position: relative;
+    display: block;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-80%, -50%);
+    -webkit-transform: translate(-80% -50%);
+    -ms-transform: translateX(-50%);
+}
+.banner-title {
+    color: #EDEDED;
+
+}
+.banner-title h1 {
+
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: 56px;
+}
+
+/* ***********************************box button styles ************************** */
+
+a.scale-in:hover img {
+  -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all ease 0.6s;
+    -o-transition: all ease 0.6s;
+    transition: all ease 0.6s;
+
+}
+
+.scale-in {
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all ease 0.6s;
+  -o-transition: all ease 0.6s;
+  transition: all ease 0.6s;
+}
+
+.scale-in:hover img {
+  -webkit-transition: all ease 0.6s;
+  -o-transition: all ease 0.6s;
+  transition: all ease 0.6s;
+}
+
+.img-holder {
+  position: relative;
+  overflow: hidden;
+}
